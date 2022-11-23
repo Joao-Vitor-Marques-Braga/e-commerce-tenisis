@@ -1,1 +1,5 @@
 npm install boxicons --save
+
+npm i react-router-dom
+
+https://www.nike.com.br/nav/genero/masculino/idade/adulto/tipodeproduto/calcados

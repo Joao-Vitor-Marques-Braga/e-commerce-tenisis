@@ -1,14 +1,15 @@
 import './App.css';
-import 'boxicons'
-import { Header } from './components/Header';
-import { ProdutosLista } from './components/Produtos';
+import { Header } from './components/Header/index_header.jsx';
+import { BrowserRouter as Router } from 'react-router-dom'
+import { ProdutosLista } from './components/Produtos/index_produtos';
 
 function App() {
   return (
     <div className="App">
+      <Router>
       <Header/>
-      <h1>Hello Word</h1>
       <ProdutosLista/>
+      </Router>
     </div>
   );
 }
