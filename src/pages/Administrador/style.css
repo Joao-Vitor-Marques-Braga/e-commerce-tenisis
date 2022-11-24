@@ -1,0 +1,46 @@
+.informações_do_produto{
+    padding: 3rem 0 5rem 0rem;
+    text-align: center;
+    color: black;
+}
+
+.titulo{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-cadastrar{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    border: solid black;
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 41rem;
+}
+
+.informações_do_produto_final h2{
+    margin-top: 2.5rem;
+}
+
+.informações_do_produto_final input{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: white;
+    border: solid ;
+    color: black;
+    border: none;
+    margin-top: 0.2rem;
+}
+
+.informações_do_produto_final select{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+}
