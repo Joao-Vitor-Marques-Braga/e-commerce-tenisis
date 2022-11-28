@@ -1,17 +1,21 @@
 import './App.css';
-import { Header } from './components/Header/index_header.jsx';
+import { Header } from './components/Header/index';
 import { BrowserRouter as Router } from 'react-router-dom'
-import { ProdutosLista } from './components/Produtos/index_produtos';
-import { Administrador } from './pages/Administrador';
+import { ProdutosLista } from './components/Produtos';
+import { DataProvider } from './context/DataProvider'
+import { Carrinho } from './components/Carrinho';
 
 function App() {
   return (
+    <DataProvider>
     <div className="App">
       <Router>
       <Header/>
-      <Administrador/>
+      <Carrinho/>
+      <ProdutosLista/>
       </Router>
     </div>
+    </DataProvider>
   );
 }
 

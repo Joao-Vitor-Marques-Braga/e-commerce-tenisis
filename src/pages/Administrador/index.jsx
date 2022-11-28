@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from '../../components/Header/index_header'
+import { Header } from '../../components/Header/index'
 import './style.css'
 
 export const Administrador = () => {

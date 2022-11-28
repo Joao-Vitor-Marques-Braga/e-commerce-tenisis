@@ -5,9 +5,9 @@
 }
 
 header{
-    width: 90%;
+    width: 100%;
     min-height: 100px;
-    max-width: 1530px;
+    max-width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: row;

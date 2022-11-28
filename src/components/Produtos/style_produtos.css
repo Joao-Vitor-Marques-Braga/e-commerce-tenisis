@@ -2,7 +2,7 @@
 
 .titulo{
     font-size: 2.5rem;
-    padding: 10rem 0 0 0;
+    padding: 10rem 5rem 2rem 10rem;
     color: black;
 }
 
@@ -12,6 +12,7 @@
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 3rem 1rem;
     box-sizing: 0 2px 6px #276ded;
+    max-width: 1640px;
 }
 
 .produto{
