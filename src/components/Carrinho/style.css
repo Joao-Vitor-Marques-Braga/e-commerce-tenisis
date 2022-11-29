@@ -1,0 +1,130 @@
+.carrinhos{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+    background-color: rgba(0 ,0,0, .6);
+    z-index: 2;
+    padding-bottom: 5rem;
+    visibility: hidden;
+}
+
+.carrinho{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 60%;
+    height: 80%;
+    border-radius: 8px;
+    overflow-x: scroll;
+    transition: all 300ms ease-in-out;
+    background-color: white;
+}
+
+.carrinho h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.carrinhos.show{
+    visibility: visible;   
+}
+
+.carrinho.show{
+    transform: translate(-50%, -50%) 
+    scale(1.1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.fechar_carrinho box-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: all 300ms ease-in-out;
+    margin: 0.8rem 0 0 2rem;
+}
+
+.fechar_carrinho box-icon:hover{
+    fill: crimson;
+}
+
+.centro_carrinho{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.item_carrinho{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    width: 80%;
+    margin: 2rem auto;
+    box-shadow: 0 1px 10px black;
+    border-radius: 8px;
+}
+
+.item_carrinho img{
+    margin: 1rem;
+}
+
+.item_carrinho h3{
+    margin-top: 6rem;
+}
+
+.item_carrinho .preço{
+    color: #1a202c;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: start;
+}
+
+.item_carrinho box-icon{
+    fill: black;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.item_carrinho .quantidade{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.item_carrinho .remover_item box-icon{
+    width: 60px;
+    height: 80px;
+    margin-top: 5.6rem;
+}
+
+.carrinho_footer{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.carrinho_footer h3{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.carrinho_footer .btn{
+    display: inline-block;
+    padding: .3rem 1rem;
+    font-size: 1.2rem;
+    background-color: white;
+    border: solid 2px;
+    border-radius: 20px;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.carrinho_footer .btn:hover{
+    background-color: black;
+    color: white;
+}
