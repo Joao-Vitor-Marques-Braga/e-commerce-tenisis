@@ -53,15 +53,15 @@ header ul li a{
     font-weight: bold;
 }
 
-.carrinho{
+.carrinho_icone{
     position: relative;
     cursor: pointer;
-}.carrinho box-icon{
+}.carrinho_icone box-icon{
     width: 45px;
     height: 45px;
 }
 
-.carrinho span{
+.carrinho_icone span{
     position: absolute;
     top: -1rem;
     right: -1.5rem;

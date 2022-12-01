@@ -10,7 +10,7 @@ export const Carrinho = () => {
         setMenu(false);
     }
 
-    const show1 = menu ? "carrinho show" : "carrinhos"
+    const show1 = menu ? "carrinhos show" : "carrinhos"
     const show2 = menu ? "carrinho show" : "carrinho"
     
   return (

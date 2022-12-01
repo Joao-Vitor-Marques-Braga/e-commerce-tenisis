@@ -29,7 +29,7 @@ export const Header = () => {
           <Link to="/produtos">Produtos</Link>
         </li>        
       </ul>
-      <div className='carrinho' onClick={toogleMenu}>
+      <div className='carrinho_icone' onClick={toogleMenu}>
         <box-icon name='cart'></box-icon>
         <span className='itens-no-carrinho'>0</span>
       </div>
