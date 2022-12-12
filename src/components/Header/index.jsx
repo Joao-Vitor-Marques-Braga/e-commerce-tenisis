@@ -8,7 +8,8 @@ import { useContext } from 'react'
 export const Header = () => {
 
   const value = useContext(DataContext);
-  const [menu, setMenu] = value.menu
+  const [menu, setMenu] = value.menu;
+  const [carrinho, setCarrinho] = value.carrinho
 
   const toogleMenu = () =>{
     setMenu(!menu)
@@ -31,7 +32,7 @@ export const Header = () => {
       </ul>
       <div className='carrinho_icone' onClick={toogleMenu}>
         <box-icon name='cart'></box-icon>
-        <span className='itens-no-carrinho'>0</span>
+        <span className='itens-no-carrinho'>{carrinho.length}</span>
       </div>
     </header>
   )

@@ -1,12 +1,18 @@
 import React from 'react'
+import { useContext } from 'react'
+import { DataContext } from '../../context/DataProvider'
 
 export const ProdutoItem = ({
+  id,
   title,
   price,
   image,
   category
 }) => {
-  console.log(image)
+
+  const value = useContext(DataContext);
+  const addCarrinho = value.addCarrinho
+
   return (
     <div className='produto'>
         <a href="/">
@@ -20,7 +26,7 @@ export const ProdutoItem = ({
           <p className='preço'> {price} </p>
         </div>
         <div className='buttom'>
-          <button className='btn'>
+          <button className='btn' onClick={() => addCarrinho(id)}>
             Adicionar ao Carrinho
           </button>
           <div>

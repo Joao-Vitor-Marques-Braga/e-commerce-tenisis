@@ -97,6 +97,94 @@ const data = {
         category: 'Corrida',
         cantidad: 1
         },
+        {
+        id: 13,
+        title:'Tênis Nike LeBron Witness 7 Masculino',
+        price:'R$ 799,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/024184IX.jpg',
+        category: 'Basquete',
+        cantidad: 1
+        },
+        {
+        id: 14,
+        title:'Tênis Nike LeBron Witness 7 Masculino',
+        price:'R$ 679,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/024184ID.jpg',
+        category: 'Basquete',
+        cantidad: 1
+        },
+        {
+        id: 15,
+        title:'Tênis Nike Court Royale 2 Next Nature Masculino',
+        price:'R$ 479,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/02415151.jpg',
+        category: 'Casual',
+        cantidad: 1
+        },
+        {
+        id: 16,
+        title:'Tênis Air Jordan 1 Low SE Craft Masculino',
+        price:'R$ 1199,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/022344ID.jpg',
+        category: 'Casual',
+        cantidad: 1
+        },
+        {
+        id: 17,
+        title:'Tênis Nike Air Force 1 "07 LV8 Masculino',
+        price:'R$ 899,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/023304ID.jpg',
+        category: 'Casual',
+        cantidad: 1
+        },
+        {
+        id: 18,
+        title:'Tênis Nike LeBron Witness 6 (Team) Masculino',
+        price:'R$ 659,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/02286251.jpg',
+        category: 'Basquete',
+        cantidad: 1
+        },
+        {
+        id: 19,
+        title:'Tênis Nike LeBron Witness 6 (Team) Masculino',
+        price:'R$ 659,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/022862ID.jpg',
+        category: 'Basquete',
+        cantidad: 1
+        },
+        {
+        id: 20,
+        title:'Tênis Jordan 1 Mid Masculino',
+        price:'R$ 1199,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/0165115B.jpg',
+        category: 'Casual',
+        cantidad: 1
+        },
+        {
+        id: 21,
+        title:'Tênis Nike Air Force 1 "07 LV8 2 Masculino',
+        price:'R$ 749,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/01440751.jpg',
+        category: 'Casual',
+        cantidad: 1
+        },
+        {
+        id: 22,
+        title:'Air Jordan 3 Retro',
+        price:'R$ 1899,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/023768P1.jpg',
+        category: 'Casual',
+        cantidad: 1
+        },
+        {
+        id: 23,
+        title:'Tênis Air Jordan 1 Low SE Masculino',
+        price:'R$ 1199,99',
+        image: 'https://imgnike-a.akamaihd.net/768x768/023188NX.jpg',
+        category: 'Casual',
+        cantidad: 1
+        },
     ]
 }
 

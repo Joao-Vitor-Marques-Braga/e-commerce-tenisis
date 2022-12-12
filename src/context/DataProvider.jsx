@@ -7,6 +7,7 @@ export const DataContext = createContext();
 export const DataProvider = (props) =>{
     const [productos, setProductos] = useState([])
     const [menu, setMenu] = useState(false);
+    const [carrinho, setCarrinho] = useState([])
 
     useEffect(() =>{
         const producto = Data.items
@@ -18,9 +19,33 @@ export const DataProvider = (props) =>{
         setProductos(producto)
     },[])
 
+    const addCarrinho = (id) =>{
+        const check = carrinho.every(item =>{
+            return item.id !== id;
+        })
+        if (check){
+            const data = productos.filter(producto => {
+                return producto.id === id
+            })
+            setCarrinho([...carrinho, ...data])
+        } else{
+            alert('O produto foi adicionado ao carrinho')
+        }
+    }
+
+    useEffect(() =>{
+        const dataCarrinho = JSON.parse(localStorage.getItem('dataCarrinho')
+        )
+        if(dataCarrinho){
+            setCarrinho(dataCarrinho)
+        }
+    }, [])
+
     const value = {
         productos : [productos],
-        menu: [menu, setMenu]
+        menu: [menu, setMenu],
+        addCarrinho: addCarrinho,
+        carrinho: [carrinho, setCarrinho]
     }
 
     return (
